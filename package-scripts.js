@@ -36,7 +36,7 @@ module.exports = {
          */
         setup: {
             script: series(
-                'yarn install',
+                // 'yarn install',
                 'nps db.setup',
             ),
             description: 'Setup`s the development environment(yarn & database)'
